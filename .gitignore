@@ -10,8 +10,14 @@
 !.yarn/releases
 !.yarn/versions
 
+#idea
+/.idea
+
 # testing
 /coverage
+
+# playwright
+/test-results/
 
 # next.js
 /.next/
@@ -31,11 +37,29 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
-.env*
+.env.local
 
 # vercel
 .vercel
 
+# cursor
+.cursor
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+*storybook.log
+
+.eslintcache
+
+# ide
+.vscode
+
+# developer documentation and guides
+REUSABLE_COMPONENTS_GUIDE.md
+QUICK_REFERENCE.md
+.cursor-rules
+
+# Sentry Config File
+.env.sentry-build-plugin
