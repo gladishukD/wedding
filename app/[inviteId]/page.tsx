@@ -22,6 +22,7 @@ export default async function Page({ params }: Props) {
       <section className="flex flex-col items-center">
         <div className="flex flex-col items-center">
           <Typography variant="primary">Любов -</Typography>
+
           <Typography variant="secondary" className="mt-3">
             це коли ми разом створюємо щось <br /> більше, ніж просто «я» і
             «ти».
