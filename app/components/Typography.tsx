@@ -1,5 +1,10 @@
 import { FC, ReactNode } from 'react'
-import clsx from 'clsx'
+import clsx, { ClassValue } from 'clsx'
+import { twMerge } from 'tailwind-merge'
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs))
+}
 
 export enum TypographyVariant {
   primary = 'primary',
@@ -18,8 +23,8 @@ export const Typography: FC<TypographyProps> = ({
   if (variant === TypographyVariant.primary) {
     return (
       <h3
-        className={clsx(
-          'text-5xl sm:text-[64px] font-allegretto font-medium text-primary',
+        className={cn(
+          'text-5xl lg:text-[64px] font-allegretto font-medium text-primary',
           className,
         )}
       >
@@ -29,8 +34,8 @@ export const Typography: FC<TypographyProps> = ({
   }
   return (
     <p
-      className={clsx(
-        'text-xs sm:text-[24px] font-normal text-secondary',
+      className={cn(
+        'text-xs lg:text-[24px] font-normal text-secondary',
         className,
       )}
     >
