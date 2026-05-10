@@ -1,4 +1,11 @@
+import { guests } from '@/app/server/invites'
+
 export interface Invite {
-    id: string
-    guests: string[]
+  id: number
+  names: string[]
+}
+export type Guest = {
+  id: string
+  names: string[]
+  link: string
 }
