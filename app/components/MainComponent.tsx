@@ -76,7 +76,7 @@ export const MainComponent: FC<Props> = ({ invite }) => {
             </Typography>
 
             <div className="mt-[60px] mb-[52px] lg:my-[98px]">
-              <Typography variant="secondary">Запрошуємо Вас</Typography>
+              <Typography variant="secondary">Чекаємо Вас</Typography>
               <Typography variant="primary" className="text-2xl lg:text-[64px]">
                 11.07.2026 о 13:30
               </Typography>
