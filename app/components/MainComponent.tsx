@@ -150,19 +150,19 @@ export const MainComponent: FC<Props> = ({ invite }) => {
           <div className="flex flex-col items-center border lg:border-2 text-center border-solid border-tertiary bg-quaternary px-4 lg:px-6 w-full py-[88px] lg:py-[114px] max-w-[396px] lg:max-w-[600px]">
             <Typography variant="primary">Деталі:</Typography>
 
-            <div className="flex flex-col items-center mt-2.5 lg:mt-[30px]">
-              <img
-                src="/file.png"
-                className="w-[29px] h-[44px] lg:w-[39px] lg:h-[58px] object-contain"
-                alt="Файл"
-              />
-              <Typography variant="secondary" className=" mt-2.5 lg:mt-[30px]">
-                Будь ласка, підтвердіть Вашу <br /> присутність на нашому святі{' '}
-                <br /> до 1 червня.
-              </Typography>
-            </div>
+            {/*<div className="flex flex-col items-center mt-2.5 lg:mt-[30px]">*/}
+            {/*  <img*/}
+            {/*    src="/file.png"*/}
+            {/*    className="w-[29px] h-[44px] lg:w-[39px] lg:h-[58px] object-contain"*/}
+            {/*    alt="Файл"*/}
+            {/*  />*/}
+            {/*  <Typography variant="secondary" className=" mt-2.5 lg:mt-[30px]">*/}
+            {/*    Будь ласка, підтвердіть Вашу <br /> присутність на нашому святі{' '}*/}
+            {/*    <br /> до 1 червня.*/}
+            {/*  </Typography>*/}
+            {/*</div>*/}
 
-            <div className="flex flex-col items-center mt-[30px] lg:mt-[60px] w-full max-w-[450px]">
+            <div className="flex flex-col items-center mt-2.5 lg:mt-[30px] w-full max-w-[450px]">
               <img
                 src="/eat.png"
                 className=" h-[43px] w-[150px] lg:h-[61px] object-contain"

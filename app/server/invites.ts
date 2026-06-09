@@ -43,6 +43,9 @@ const rawGuests: Invite[] = [
   { id: 38, names: ['Олександр', 'Діана'] },
   { id: 39, names: ['Сергій', 'Марія'] },
   { id: 40, names: ['Вадим', 'Анна'] },
+  //
+  { id: 41, names: ['Володимир', 'Альона'] },
+  { id: 42, names: ['Артем', 'Анастасія'] },
 ]
 
 const generateInviteId = (id: number) => {
