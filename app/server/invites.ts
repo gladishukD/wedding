@@ -65,6 +65,5 @@ export const guests = rawGuests.map(({ id, names }) => ({
 }))
 
 export const getInviteById = (id: string) => {
-  console.log(guests)
   return guests.find((i) => i.id === id) || null
 }
