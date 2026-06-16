@@ -47,7 +47,7 @@ const rawGuests: Invite[] = [
   { id: 41, names: ['Володимир', 'Альона'] },
   { id: 42, names: ['Артем', 'Анастасія'] },
   //
-  { id: 43, names: ['Володимир', 'Ольга'] },
+  { id: 43, names: ['Ольга'] },
 ]
 
 const generateInviteId = (id: number) => {
@@ -65,5 +65,6 @@ export const guests = rawGuests.map(({ id, names }) => ({
 }))
 
 export const getInviteById = (id: string) => {
+  console.log(guests)
   return guests.find((i) => i.id === id) || null
 }
